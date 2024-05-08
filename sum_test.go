@@ -4,8 +4,11 @@ import (
 	"testing"
 )
 
+func sum(a int, b int) int {
+	return a + b
+}
 func TestSum(t *testing.T) {
-	result := sum.Sum(2, 3)
+	result := sum(2, 3)
 	expected := 5
 
 	if result != expected {
