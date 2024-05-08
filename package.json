@@ -2,9 +2,9 @@
   "name": "unit-testing",
   "version": "1.0.0",
   "description": "Unit testing is a software testing technique that focuses on verifying the correctness of individual units of code, typically functions or methods. It isolates a specific unit and tests its behavior with various inputs to ensure it produces the expected outputs.",
-  "main": "index.js",
+  "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "repository": {
     "type": "git",
