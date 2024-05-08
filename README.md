@@ -174,8 +174,4 @@ The most appropriate technique often depends on the complexity of the unit and y
 - [techtarget](https://www.techtarget.com/searchsoftwarequality/definition/unit-testing)
 
 ## Example
-- [Ts]()
-- [Js]()
-- [Py]()
-- [Go]()
-- [Java]()
+Our branches showcase a wide variety of examples written in different programming languages. For instance, you can find TypeScript examples in the `test/typescript` branch.
