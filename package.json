@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/Testing-Guild/Unit-Testing/issues"
   },
-  "homepage": "https://github.com/Testing-Guild/Unit-Testing#readme"
+  "homepage": "https://github.com/Testing-Guild/Unit-Testing#readme",
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.4.0"
+  }
 }
