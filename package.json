@@ -4,7 +4,7 @@
   "description": "Unit testing is a software testing technique that focuses on verifying the correctness of individual units of code, typically functions or methods. It isolates a specific unit and tests its behavior with various inputs to ensure it produces the expected outputs.",
   "main": "",
   "scripts": {
-    "test": "mocha ./**/*.spec.ts"
+    "test": "mocha --require ts-node/register test/**.spec.ts"
   },
   "repository": {
     "type": "git",
@@ -22,8 +22,9 @@
   "devDependencies": {
     "@types/chai": "^4.3.16",
     "@types/mocha": "^10.0.6",
-    "chai": "^5.1.0",
+    "chai": "^4.3.7",
     "mocha": "^10.4.0",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
   }
 }

@@ -1,17 +1,11 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
+    "target": "es2016",
+    "module": "commonjs",
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "moduleResolution": "node",
-    "types": ["node"],
     "skipLibCheck": true
-  },
-  "ts-node": {
-    "esm": true
-  },
-  "exclude": ["node_modules"]
+  }
 }
